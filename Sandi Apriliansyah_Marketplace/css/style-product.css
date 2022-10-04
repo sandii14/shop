@@ -1,0 +1,22 @@
+#main{
+    background-color: whitesmoke;
+    padding-bottom: 50px;
+}
+
+
+#main > h1{
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 50px;
+}
+
+.container-info{
+    max-width: 1000px;
+    border: 1px solid #d3ced2;
+    margin: auto;
+    padding: 20;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px -5px rgb(0 0 0 / 81%);
+    background-color: #fff;
+    color: black;
+}

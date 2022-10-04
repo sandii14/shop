@@ -1,0 +1,51 @@
+#main{
+    background-color: whitesmoke;
+}
+
+#main > h1{
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 50px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 200px;
+}
+
+.content a{
+    color: black;
+}
+
+
+.content figure{
+    background-color: rgb(106, 105, 105);
+    margin-bottom: 50px;
+    
+}
+
+
+figure {
+    
+    width: 330px;
+    height: 330px;
+    padding: 15px 15px;
+    margin: 20px;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    transition: 2.0s;
+}
+
+article {
+    clear: both;
+    overflow: auto;
+    width: 500px;
+    padding: 0 60px;
+}
+
+
+article :hover{
+    transition: 1s;
+    transform:scale(1.01);
+}
